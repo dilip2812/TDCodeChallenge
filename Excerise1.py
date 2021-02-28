@@ -100,7 +100,7 @@ def main():
     try:
         input_limit = int(input("Enter input limit "))
     except:
-        # defaulting to input 
+        # defaulting to input here
         input_limit = 10
     
     loadairind.downlaoddata(output_format,0,input_limit)
