@@ -23,13 +23,6 @@ class CONST_DATA:
     DATAGOVURL = "https://api.data.gov.in/resource/"
     SUPPORTED_FORMAT = ['json','csv','xml']
     
-    AIRINDEX = {
-        "API_HASH" : "3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69",
-        "MAX_LIMIT" : 10000
-        }
-    
-    API_KEY = "579b464db66ec23bdd0000011322f4f3c3c744386b31786f75d86802"
-    
 class LoadAirIndex:
 
     def __init__(self, user):
